@@ -6,15 +6,15 @@ Track daily habits with a cute, interactive calendar!
 
 ---
 
-##Table of contents
+## Table of contents
 
--[Features] (#features)
+- [Features](#features)
 
--[Lessons learned] (#lessons learned)
+- [Lessons learned](#lessonslearned)
 
 ---
 
-##Features
+## Features
 
 - Interactive calendar showing the current month
 - Click on a day to mark a habit as completed
@@ -25,7 +25,7 @@ Track daily habits with a cute, interactive calendar!
 
 ---
 
-##Lessons learned
+## Lessons learned
 
 I really enjoyed creating this project. I learned so much
 about modern JS practices and syntax, local storage, and 
