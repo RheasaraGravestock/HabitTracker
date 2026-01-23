@@ -1,0 +1,95 @@
+body {
+    background-image: url("orange.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Kindegarten', sans-serif;
+    cursor: pointer;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.3);
+    pointer-events: none;
+    z-index: -1;
+}
+
+#title {
+    margin-top: 100px;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+#subtitle {
+    opacity: 1;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #022d1cc2;
+}
+
+#calendarContainer {
+    display: flex;
+}
+
+#calendarDiv {
+    background-color: #faebd7;
+    border-radius: 10px 10px 20px 20px;
+    margin: auto;
+    text-align: center;
+
+    width: 90%; 
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+#calendarHeading {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid black;
+    padding: 0px 20px;
+    font-size: 20px;
+    background-color: rgba(255, 134, 5, 0.762);
+    line-height: 0px;
+}
+
+#calendarContent {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+    justify-items: center;
+
+}
+
+.day {
+    width: 30px;
+    margin: 3px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+#resetButton {
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ff8605c2;
+    color: black;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    font-family: 'Kindegarten', sans-serif;
+}
