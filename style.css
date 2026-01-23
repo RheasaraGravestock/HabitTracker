@@ -66,8 +66,8 @@ body::before {
 .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 4px;
-    justify-items: center;
+    gap: 6px;
+    /*justify-items: center;*/
 
 }
 
@@ -76,12 +76,19 @@ body::before {
     align-items: center;
     justify-content: center;
     font-size: clamp(12px, 2.5vw, 16px);
-    width: 30px;
+    /*width: 30px;
     margin: 3px;
     padding: 10px;
     font-size: 15px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 20px;*/
+
+    width: 100%;
+    aspect-ratio: 1;
+    padding: 0;
+    font-size: 14px;
+    border-radius: 50%;
+    
     background-color: antiquewhite;
 }
 
@@ -101,7 +108,7 @@ body::before {
 
 @media (max-width: 400px) {
     .days {
-        gap: 2px;
+        gap: 4px;
     }
     .day {
         font-size: 12px;
