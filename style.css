@@ -41,8 +41,9 @@ body::before {
     margin: auto;
     text-align: center;
 
-    width: 90%; 
+    width: 100%; 
     max-width: 600px;
+    padding: 8px;
     box-sizing: border-box;
 }
 
@@ -65,12 +66,16 @@ body::before {
 .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 6px;
+    gap: 4px;
     justify-items: center;
 
 }
 
 .day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(12px, 2.5vw, 16px);
     width: 30px;
     margin: 3px;
     padding: 10px;
@@ -92,4 +97,13 @@ body::before {
     display: block;
     margin: 20px auto;
     font-family: 'Kindegarten', sans-serif;
+}
+
+@media (max-width: 400px) {
+    .days {
+        gap: 2px;
+    }
+    .day {
+        font-size: 12px;
+    }
 }
