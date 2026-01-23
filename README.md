@@ -6,6 +6,8 @@ Track daily habits with a cute, interactive calendar!
 
 ---
 
+## Tech used: HTML, CSS, JavaScript
+
 ## Table of contents
 
 - [Features](#features)
