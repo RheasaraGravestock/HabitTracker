@@ -2,7 +2,7 @@
 
 Track daily habits with a cute, interactive calendar!
 
-## Link to project: 
+## [Click to view project](https://rheasaragravestock.github.io/HabitTracker/)
 
 ---
 
