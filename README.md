@@ -65,7 +65,7 @@ The application will load in your browser -> Happy tracking!
 
 ## Screenshot of the application
 
-[Screenshot](images/Screenshot.png)
+![Screenshot](images/Screenshot.png)
 
 
 ---
