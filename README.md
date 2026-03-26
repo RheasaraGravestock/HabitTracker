@@ -35,3 +35,6 @@ even importing CSS styles.
 
 Of course there are things I would like to do differently
 next time but that's all part of the learning journey!
+
+## Things I'd like to add/ improve
+- 
