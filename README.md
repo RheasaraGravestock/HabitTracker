@@ -56,7 +56,7 @@ There are endless things I'd love to build on with this project, but just to nam
 ---
 
 ## How to run the project
-1. Clone the repository: 
+1. Clone the repository: https://github.com/RheasaraGravestock/HabitTracker.git
 Open the project folder
 Open the index.html in your browser by: -Double clicking or -Right click -> 'Open with' -> your browser
 The application will load in your browser -> Happy tracking!
@@ -65,9 +65,10 @@ The application will load in your browser -> Happy tracking!
 
 ## Screenshot of the application
 
+[Screenshot](images/Screenshot.png)
 
 
-
+---
 
 ## Live demo
 
