@@ -37,8 +37,10 @@ I faced a fair few challenges during this build, namely:
 
 ## What I learned
 
-
-
+- A deeper understanding of the relationship between localStorage and the DOM and how keeping them in sync is essential for a consistent user experience
+- Using localStorage to persist user data across page refreshes which allows the application to maintain state
+- Creating and using keys (month-day-year) to store and retrieve specific data for each day
+- Breaking down a complex problem, such as building a calendar, into smaller and more manageable steps
 
 ---
 
@@ -53,24 +55,20 @@ There are endless things I'd love to build on with this project, but just to nam
 
 ---
 
-
-
-
-
-## [Click to view project](https://rheasaragravestock.github.io/HabitTracker/)
-
----
+## How to run the project
+1. Clone the repository: 
+Open the project folder
+Open the index.html in your browser by: -Double clicking or -Right click -> 'Open with' -> your browser
+The application will load in your browser -> Happy tracking!
 
 ---
 
+## Screenshot of the application
 
 
-I really enjoyed creating this project. I learned so much
-about modern JS practices and syntax, local storage, and 
-even importing CSS styles.
 
-Of course there are things I would like to do differently
-next time but that's all part of the learning journey!
 
-## Things I'd like to add/ improve
-- 
+
+## Live demo
+
+[Click to view project](https://rheasaragravestock.github.io/HabitTracker/)
