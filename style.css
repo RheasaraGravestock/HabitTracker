@@ -9,7 +9,6 @@ body {
     cursor: pointer;
 }
 
-
 body::before {
     content: "";
     position: fixed;
@@ -41,7 +40,6 @@ body::before {
     border-radius: 10px 10px 20px 20px;
     margin: auto;
     text-align: center;
-
     width: 100%; 
     max-width: 600px;
     padding: 8px;
@@ -69,7 +67,6 @@ body::before {
     grid-template-columns: repeat(7, 1fr);
     gap: 4px;
     justify-items: center;
-
 }
 
 .day {
